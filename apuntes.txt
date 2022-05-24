@@ -1,0 +1,16 @@
+exports is a reference of modules.exports == ( let exports =modules.exports )
+chunks in node is a fragment data that is send of client to server, the server make a stream of these chunks and form a buffer stream, 
+this buffer stream is then coverted into meaningful data.
+
+[ <Buffer 6d 65 73 73 61 67 65 3d 57 65 6c 63 6f 6d 65 2b 74 6f 2b 54 75 74 6f 72 69 61 6c 73 2b 50 6f 69 6e 74 2b 25 32 31 25 32 31 25 32 31> ]
+
+what is mysql and mariadb? and apache? mysql is a database management system that permit retrive and write in the database, 
+apache is server most use in the word.
+
+what is bcrypt and jwt? 
+jwt is composed to 3 parts, the first in the header where specified the algorit the encryctation and the type
+the second part(payload data) is about the information object that pass and a field that is about the time the connection
+to last the third part is about the the encryctation the all the mentioned before and a field that is a secret word to sign the token
+
+bcrypt ???
+why importan the orden the target <script> ?

@@ -1,0 +1,35 @@
+#chat {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#chat > * {
+	width: 40%;
+	padding: 20px;
+}
+#all-messages{
+	height:500px;
+	margin:10px 0;
+	overflow-y:auto;
+	
+}
+.messages {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	margin: 2px;
+
+	border-radius: 15px;
+}
+.me-messages {
+	background-color: #5564eb;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px 2px;
+	border-radius: 15px;
+
+}
